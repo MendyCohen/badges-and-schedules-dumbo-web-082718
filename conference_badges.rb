@@ -6,6 +6,7 @@ end
 
 def batch_badge_creator(messages)
   messages.each do |x|
-  return message = ["Hello, my name is #{x}."]
+   message = ["Hello, my name is #{x}."]
  end
+ return message
 end
