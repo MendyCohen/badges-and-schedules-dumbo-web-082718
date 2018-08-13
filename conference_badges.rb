@@ -24,5 +24,7 @@ end
 
 def printer(name)
   name.each do |x|
-  puts "Hello, my name is #{batch_badge_creator(x)}."
+  puts "Hello, my name is #{batch_badge_creator(x)}
+  ."
+end
 end
