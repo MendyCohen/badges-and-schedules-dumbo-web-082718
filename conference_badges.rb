@@ -23,4 +23,5 @@ def assign_rooms(name)
 end
 
 def printer(badges)
+  puts "Hello, my name is #{badges}"
 end
