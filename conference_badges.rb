@@ -23,5 +23,6 @@ def assign_rooms(name)
 end
 
 def printer(name)
-  puts "Hello, my name is #{batch_badge_creator(name[0])}."
+  name.each do |x|
+  puts "Hello, my name is #{batch_badge_creator(x)}."
 end
