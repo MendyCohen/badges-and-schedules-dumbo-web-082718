@@ -28,6 +28,6 @@ end
 
 def printer(name)
   assign_rooms.each do |x|
-    
+    puts "#{x}"
   end
 end
