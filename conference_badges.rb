@@ -26,8 +26,8 @@ end
 #   puts "#{batch_badge_creator(name)}"
 # end
 
-def printer(name)
-  assign_rooms(name).each do |x|
-    puts " #{x}"
-  end
-end
+# def printer(name)
+#   assign_rooms(name).each do |x|
+#     puts " #{x}"
+#   end
+# end
