@@ -12,3 +12,5 @@ def batch_badge_creator(messages)
  return message
 end
 
+def assign_rooms(messages, assignments)
+end
