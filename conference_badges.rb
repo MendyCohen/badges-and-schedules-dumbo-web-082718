@@ -22,16 +22,6 @@ def assign_rooms(name)
   return message
 end
 
-# def printer(name)
-#   puts "#{batch_badge_creator(name)}"
-# end
-
-# def printer(name)
-#   assign_rooms(name).each do |x|
-#     puts " #{x}"
-#   end
-# end
-
 def printer(name)
   batch_badge_creator(name).each do |x|
     puts "#{x}"
