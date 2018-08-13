@@ -17,6 +17,7 @@ def assign_rooms(name)
   message = []
   messages.each do |x|
     message.push("Hello, #{name}! You'll be assgined to room #{count}!")
+    count+=1
   end
   return message
 end
