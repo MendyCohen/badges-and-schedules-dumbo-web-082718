@@ -22,9 +22,9 @@ def assign_rooms(name)
   return message
 end
 
-def printer(name)
-  puts "#{batch_badge_creator(name)}"
-end
+# def printer(name)
+#   puts "#{batch_badge_creator(name)}"
+# end
 
 def printer(name)
   assign_rooms.each do |x|
