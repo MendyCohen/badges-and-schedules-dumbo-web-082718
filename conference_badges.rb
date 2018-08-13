@@ -23,6 +23,7 @@ def assign_rooms(name)
 end
 
 def printer(name)
+  assign = []
   puts "#{batch_badge_creator(name)}"
   name.each do |x|
     puts "#{assign_rooms(x)}"
